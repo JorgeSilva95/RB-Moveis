@@ -1,0 +1,10 @@
+.Logo{
+    width: 70px;
+}
+.cabsAlho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
