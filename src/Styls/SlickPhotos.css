@@ -3,6 +3,7 @@
   margin: 30px auto;
   padding: 0 100px;
   position: relative;
+  user-select: none;
 }
 .thumbs .btn-prev,
 .thumbs .btn-next {
@@ -126,6 +127,7 @@
   direction: ltr;
 }
 .alice-carousel__wrapper {
+  user-select: none;
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
