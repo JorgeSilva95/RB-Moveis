@@ -5,3 +5,27 @@ footer{
     border-color: black;
     background-color: rgb(192, 192, 192);
 }
+
+.SocialMedia{
+    display: flex;
+    float: right;
+}
+
+footer > div > .Logo{
+    margin-left: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.SocialMedia > li{
+    margin: 0 20px;
+    list-style: none;
+
+}
+
+.Direitos{
+    margin: auto;
+    text-align: center;
+}
