@@ -1,9 +1,11 @@
+import "../Styls/Footer.css";
+import Logo from"../Imagens/Logo.png"
 
 function Footer() {
   return (
     <footer>
       <div>
-          <h2>FIM DO SITE</h2>
+          <img src={Logo} alt="RB-Moveis Planejados" />
       </div>
     </footer>
   );
