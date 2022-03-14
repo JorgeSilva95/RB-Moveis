@@ -6,7 +6,6 @@ import Footer from "../Components/Footer.jsx";
 
 function Home(props) {
   
-  console.log("asd");
   const [Page, SetPage] = useState("Home");
   
 
@@ -18,7 +17,6 @@ function Home(props) {
           <SlickPhotos />
           <AvaService/>
           <Footer/>
-          <button onClick={()=>(props.setttt())}>BUTTAO DEBUG</button>
         </body>
         
       </div>
