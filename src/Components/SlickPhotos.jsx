@@ -117,7 +117,6 @@ const Carousel = () => {
         onSlideChanged={syncMainAfterChange}
         touchTracking={!thumbAnimation}
       />
-      ,
       <div className="thumbs">
         <AliceCarousel
           activeIndex={thumbIndex}

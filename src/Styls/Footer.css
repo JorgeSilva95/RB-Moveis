@@ -29,3 +29,11 @@ a{
     margin: auto;
     text-align: center;
 }
+.Direitos >h3{
+    margin-bottom: 0px;
+    cursor: context-menu;
+}
+
+.Icons{
+    width: 40px;
+}
