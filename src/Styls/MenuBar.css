@@ -8,3 +8,9 @@
     width: 100%;
     z-index: 2;
 }
+
+#cabssalh{
+    transition: 0.9s;
+    background: rgba(66,139,131,70%);
+    border-style: none;
+}

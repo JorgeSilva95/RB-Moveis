@@ -7,16 +7,36 @@ import Link from "@mui/material/Link";
 import Logo from "../Imagens/Logo.png";
 import "../Styls/MenuBar.css";
 
-function MenuBar(props) {
-  const { idScreen } = props;
-  const { setScreen } = props;
-  function setttt() {
-    props.setScreen="aeecaralhoooo";
-    console.log(setScreen);
+window.onscroll = function () {
+  scrollFunc();
+};
+
+function scrollFunc(){
+  const headerTran = document.getElementById("cabssalh");
+
+  if (
+    document.body.scrollTop > 500 ||
+    document.documentElement.scrollTop > 500
+  ) {
+    headerTran.style.background = "rgba(66,139,131,70%)";
+    
+  } else if(document.documentElement.scrollTop < 10) {
+    headerTran.style.background = "rgba(66,139,131,70%)";
   }
+   else {
+    headerTran.style.transition = "0.90s";
+    headerTran.style.background = "rgba(66,139,131,30%)";
+  }
+}
+
+function MenuBar(props) {
+
+  const { idScreen } = props;
+
   return (
     <div className="cabsAlho">
       <AppBar
+        id="cabssalh"
         position="static"
         color="default"
         elevation={0}
@@ -24,7 +44,7 @@ function MenuBar(props) {
       >
         <Toolbar sx={{ flexWrap: "wrap" }}>
           <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-            <img className="Logo" src={Logo} alt="Logo"/>
+            <img className="Logo" src={Logo} alt="Logo" />
           </Typography>
           <nav>
             <Link
