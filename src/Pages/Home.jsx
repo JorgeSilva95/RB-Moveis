@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import MenuBar from "../Components/MenuBar";
 import SlickPhotos from "../Components/SlickPhotos.jsx";
 import AvaService from "../Components/AvaService.jsx";
@@ -8,10 +9,8 @@ function Home(props) {
 
     return (
         <div>
-          <MenuBar idScreen="Login"></MenuBar>
           <SlickPhotos />
           <AvaService />
-          <Footer />
         </div>
     );
   }

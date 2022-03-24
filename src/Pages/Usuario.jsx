@@ -1,7 +1,7 @@
 import MenuBar from "../Components/MenuBar";
 import SlickPhotos from "../Components/SlickPhotos.jsx";
 
-function Servicos() {
+function Usuario() {
   return (
     <div>
       <body>
@@ -11,4 +11,4 @@ function Servicos() {
   );
 }
 
-export default Servicos;
+export default Usuario;
