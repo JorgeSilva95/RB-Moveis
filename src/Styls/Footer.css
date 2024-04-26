@@ -1,39 +1,38 @@
-footer{
-    border-top-style: groove;
-    border-top-width: 1px;
-    padding: 20px 0px 0px 0px;
-    border-color: black;
-    background-color: rgb(192, 192, 192);
+footer {
+  border-top-style: groove;
+  border-top-width: 1px;
+  padding: 20px 0px 0px 0px;
+  border-color: black;
+  background-color: rgb(192, 192, 192);
 }
 
-.SocialMedia{
-    display: flex;
-    float: right;
+.SocialMedia {
+  display: flex;
+  float: right;
 }
 
-footer > div > .Logo{
-    margin-left: 3%;
+footer > div > .Logo {
+  margin-left: 3%;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.SocialMedia > li{
-    margin: 0 20px;
-    list-style: none;
-
+.SocialMedia > li {
+  margin: 0 20px;
+  list-style: none;
 }
 
-.Direitos{
-    margin: auto;
-    text-align: center;
+.Direitos {
+  margin: auto;
+  text-align: center;
 }
-.Direitos >h3{
-    margin-bottom: 0px;
-    cursor: context-menu;
+.Direitos > h3 {
+  margin-bottom: 0px;
+  cursor: context-menu;
 }
 
-.Icons{
-    width: 40px;
+.Icons {
+  width: 40px;
 }

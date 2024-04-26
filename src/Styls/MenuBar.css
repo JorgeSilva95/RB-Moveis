@@ -1,16 +1,16 @@
-.Logo{
-    width: 70px;
+.Logo {
+  width: 70px;
 }
-.cabsAlho{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
+.cabsAlho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 
-#cabssalh{
-    transition: 0.9s;
-    background: rgba(66,139,131,70%);
-    border-style: none;
+#cabssalh {
+  transition: 0.9s;
+  background: rgba(165, 165, 165, 70%);
+  border-style: none;
 }

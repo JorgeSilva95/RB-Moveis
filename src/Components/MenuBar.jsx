@@ -15,16 +15,11 @@ window.onscroll = function () {
 function scrollFunc() {
   const headerTran = document.getElementById("cabssalh");
 
-  if (
-    document.body.scrollTop > 500 ||
-    document.documentElement.scrollTop > 500
-  ) {
-    headerTran.style.background = "rgba(66,139,131,70%)";
-  } else if (document.documentElement.scrollTop < 10) {
-    headerTran.style.background = "rgba(66,139,131,70%)";
-  } else {
+  if (document.documentElement.scrollTop < 10) {
+    headerTran.style.background = "rgba(165, 165, 165,70%)";
+  } else if (document.documentElement.scrollTop > 10) {
     headerTran.style.transition = "0.90s";
-    headerTran.style.background = "rgba(66,139,131,30%)";
+    headerTran.style.background = "rgba(165, 165, 165,30%)";
   }
 }
 
@@ -89,7 +84,7 @@ function MenuBar(props) {
           </Toolbar>
         </AppBar>
       </div>
-      <Outlet/>
+      <Outlet />
     </>
   );
 }
